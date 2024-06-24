@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+
+</head>
+<body>
+    <div class="flex justify-center items-ceanter mx-auto ">
+        <div class="search ">
+            <button type="button" class=" shadow-black shadow-sm rounded-2xl md:px-32">
+              <svg class="h-5 w-5 ml-2 inline md:-translate-x-24 " viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.7955 15.8111L21 21M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z" stroke="red" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg> 
+                <input type="text" placeholder="Resturant name or a dish....." class=" placeholder:text-slate-800 font-normal
+                 px-2 py-2 outline-none">
+                 <svg class="h-5 w-5 mr-2 inline md:translate-x-24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8 5C8 2.79086 9.79086 1 12 1C14.2091 1 16 2.79086 16 5V12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12V5Z" fill="red"/>
+                  <path d="M6.25 11.8438V12C6.25 13.525 6.8558 14.9875 7.93414 16.0659C9.01247 17.1442 10.475 17.75 12 17.75C13.525 17.75 14.9875 17.1442 16.0659 16.0659C17.1442 14.9875 17.75 13.525 17.75 12V11.8438C17.75 11.2915 18.1977 10.8438 18.75 10.8438H19.25C19.8023 10.8438 20.25 11.2915 20.25 11.8437V12C20.25 14.188 19.3808 16.2865 17.8336 17.8336C16.5842 19.0831 14.9753 19.8903 13.25 20.1548V22C13.25 22.5523 12.8023 23 12.25 23H11.75C11.1977 23 10.75 22.5523 10.75 22V20.1548C9.02471 19.8903 7.41579 19.0831 6.16637 17.8336C4.61919 16.2865 3.75 14.188 3.75 12V11.8438C3.75 11.2915 4.19772 10.8438 4.75 10.8438H5.25C5.80228 10.8438 6.25 11.2915 6.25 11.8438Z" fill="red"/>
+                  </svg>
+                
+            </button>
+        </div>
+          <div class="ml-2 ">
+            <h1 class="font-bold translate-x-1">VEG</h1>
+            <h2 class="font-semibold -translate-y-2" >MODE</h2>
+        </div>
+    </div>
+
+ <div class="container bg-amber-300 mx-auto mt-2 rounded-2xl">
+    <div class="text-center"><h1 class="font-bold font-serif pt-4 md:text-2xl">Inspiring for your first order👀</h1></div>
+<div class="grid grid-cols-3 md:grid-cols-6 gap-6 p-6 text-center">
+  <div class=""><img src="1.avif">
+    <div>
+      <h1 class="font-bold">Rolls</h1>
+      <P>⏱20mins</P>
+    </div>
+  </div>
+    <div>
+      <div class="text-sm text-white relative"><img src="2.avif">
+      <div class=" absolute h-full w-full top-7 md:top-20 ">
+        <h1 class="font-extrabold">10% OFF</h1>
+        <P>Up to ₹50</P>
+        🤍
+      </div>
+    </div>
+      <div>
+        <h1 class="font-bold">Burger</h1>
+        <P> ⏱23mins</P>
+      </div>
+    </div>
+    <div class=""><img src="4.avif">
+      <div>
+        <h1 class="font-bold">Bhature</h1>
+        <P>⏱20mins</P>
+      </div>
+    </div>
+    <div class=""><img src="3.avif">
+     <div>
+        <h1 class="font-bold">Cake</h1>
+        <P>⏱15mins</P>
+      </div>
+    </div>
+    <div>
+      <div class="text-sm text-white relative"><img src="5.avif ">
+      <div class=" absolute h-full w-full top-7 md:top-20 ">
+        <h1 class="font-extrabold">25% OFF</h1>
+        <P> Up to ₹90</P>
+        🤍
+      </div>
+    </div>
+      <div>
+        <h1 class="font-bold">Chicken</h1>
+        <P>⏱25mins</P>
+      </div>
+    </div>
+    <div>
+      <div class="text-sm text-white relative"><img class="rounded-full" src="6.avif">
+      <div class=" absolute h-full w-full top-7 md:top-20 ">
+        <h1 class="font-extrabold ">30% OFF</h1>
+        <P>Up to ₹120</P>
+        🤍
+      </div>
+    </div>
+      <div>
+        <h1 class="font-bold">Fried Rice</h1>
+        <P>⏱30mins</P>
+      </div>
+    </div>
+</div>
+ </div>   
+
+ <div class="font-extrabold text-2xl text-center my-4">Top Brands For You</div>
+
+<div class="container  rounded-2xl mx-auto">
+<div class="grid grid-cols-4 gap-2 p-2 text-center justify-items-center ">
+  <div class="hover:shadow-2xl ">
+    <img class="h-20 w-28 rounded-full"src="z.avif">
+    <h1 class=""> Domino's</h1>
+  </div>
+  <div class= "hover:shadow-2xl">
+    <img class="h-20 w-28 rounded-full"src="x.avif">
+    <h1 class="">Burger King</h1>
+  </div>
+  <div class= "hover:shadow-2xl">
+    <img class="h-20 w-28 rounded-full"src="v.avif">
+    <h1class=""> KFC</h1>
+  </div>
+  <div class= "hover:shadow-2xl">
+    <img class="h-20 w-28 rounded-3xl"src="n.avif">
+    <h1>McDonald's</h1>
+  </div>
+</div>
+</div>
+
+ <div class="text-2xl font-extrabold text-center my-4 items-baseline">EXPLORE</div>
+
+<div class="container bg- rounded-2xl mx-auto ">
+  <div class="grid grid-cols-4 gap-2 p-2 text-center justify-items-center">
+  <div class=" bg-white w-20 rounded-xl hover:shadow-xl">
+      <svg class="h-16 w-16 ml-2" fill="red"viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m20.749 12 1.104-1.908a1 1 0 0 0-.365-1.366l-1.91-1.104v-2.2a1 1 0 0 0-1-1h-2.199l-1.103-1.909a1.008 1.008 0 0 0-.607-.466.993.993 0 0 0-.759.1L12 3.251l-1.91-1.105a1 1 0 0 0-1.366.366L7.62 4.422H5.421a1 1 0 0 0-1 1v2.199l-1.91 1.104a.998.998 0 0 0-.365 1.367L3.25 12l-1.104 1.908a1.004 1.004 0 0 0 .364 1.367l1.91 1.104v2.199a1 1 0 0 0 1 1h2.2l1.104 1.91a1.01 1.01 0 0 0 .866.5c.174 0 .347-.046.501-.135l1.908-1.104 1.91 1.104a1.001 1.001 0 0 0 1.366-.365l1.103-1.91h2.199a1 1 0 0 0 1-1v-2.199l1.91-1.104a1 1 0 0 0 .365-1.367L20.749 12zM9.499 6.99a1.5 1.5 0 1 1-.001 3.001 1.5 1.5 0 0 1 .001-3.001zm.3 9.6-1.6-1.199 6-8 1.6 1.199-6 8zm4.7.4a1.5 1.5 0 1 1 .001-3.001 1.5 1.5 0 0 1-.001 3.001z"/></svg>
+      <h1 class="font-bold">Offers</h1>
+      <p class="text-blue-700 text-xs font-semibold ">Flat discount</p>
+  </div>
+    <div class="bg-white w-20 rounded-xl hover:shadow-xl">
+      <svg class="h-16 w-14 ml-3" fill="blue" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	  viewBox="0 0 256 160" enable-background="new 0 0 256 160" xml:space="preserve">
+<path d="M64.54,111.46c-12.78,0-23.11,10.34-23.11,23.11c0,12.78,10.33,23.12,23.11,23.12c12.77,0,23.11-10.34,23.11-23.12
+	C87.65,121.8,77.31,111.46,64.54,111.46z M64.54,143.43c-4.85,0-8.85-4-8.85-8.86c0-4.85,4-8.85,8.85-8.85s8.85,4,8.85,8.85
+	C73.39,139.43,69.39,143.43,64.54,143.43z M210.04,110.48c-12.77,0-23.11,10.33-23.11,23.11c0,12.77,10.34,23.11,23.11,23.11
+	c12.78,0,23.12-10.34,23.12-23.11C233.16,120.81,222.82,110.48,210.04,110.48z M210.04,142.44c-4.85,0-8.85-4-8.85-8.85
+	c0-4.85,4-8.85,8.85-8.85c4.86,0,8.86,4,8.86,8.85C218.9,138.44,214.9,142.44,210.04,142.44z M2,2v119.44c0,4.48,3.52,8.56,8,8.56
+	h22c0.92,0,1.83-1.16,2-2c2.52-14.46,15.33-24.44,30.54-24.44s27.82,10.02,30.34,24.48c0.17,0.93,1.2,1.96,2.12,1.96h33V2H2z
+	 M64.77,89.29c-17.29,0-31.36-14.07-31.36-31.36c0-16.07,12.14-29.35,27.73-31.15v-3.97H56.8v-7.52h16.48v7.52h-4.63v3.99
+	c3.49,0.44,6.8,1.44,9.84,2.92l2.64-4.18l6.35,4l-2.68,4.27c6.92,5.75,11.34,14.43,11.34,24.12C96.14,75.22,82.07,89.29,64.77,89.29
+	z M64.77,34.07c-13.15,0-23.85,10.7-23.85,23.86c0,13.15,10.7,23.85,23.85,23.85c13.16,0,23.86-10.7,23.86-23.85
+	C88.63,44.77,77.93,34.07,64.77,34.07z M64.9,57.78V38.42c10.67,0.05,19.25,8.7,19.36,19.36H64.9z M252,113h-5V91
+	c0-7.4-5.52-13-13-13h-24c-0.5,0-1.1-0.27-1.44-0.6l-37.4-36.41c-1.68-1.68-3.72-2.91-6.16-2.99h-27v92h40c0.92,0,1.83-1.16,2-2
+	c2.52-14.46,14.83-25.43,30.04-25.43c15.22,0,27.82,11.01,30.34,25.47c0.17,0.93,1.7,1.96,2.62,1.96h2c4.79,0,9-4.31,9-9.02v-6.22
+	C254,113.84,253.01,113,252,113z M191,78h-41c-1.01,0-2-0.99-2-2l-0.04-25.85c0-1.01,1.03-2.15,2.04-2.15h13
+	c0.5,0,1.52,0.55,1.94,0.89L192,75C193.01,76.26,192.6,78,191,78z"/>
+</svg>
+      <h1 class="font-bold ">Express </h1>
+      <p class=" text-sm font-semibold"> Delivery</p>
+    </div>
+    <div class="bg-white w-20 rounded-xl hover:shadow-xl">
+      <svg class=" h-16 w-14 ml-3" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+      viewBox="0 0 512 512" xml:space="preserve">
+   <polygon style="fill:#BF4F28;" points="327.497,196.404 358.955,196.404 435.2,10.449 376.686,10.449 321.959,130.351 "/>
+   <g>
+     <polygon style="fill:#4D1907;" points="339.836,92.867 383.813,136.845 400.219,94.751 357.641,52.174 	"/>
+     <polygon style="fill:#4D1907;" points="417.533,53.536 434.544,12.049 432.945,10.449 376.686,10.449 375.983,11.986 	"/>
+   </g>
+   <g>
+     <path style="fill:#3FD0FC;" d="M137.421,501.551h206.856c-26.155-27.057-62.824-43.886-103.428-43.886
+       S163.577,474.494,137.421,501.551z"/>
+     <path style="fill:#3FD0FC;" d="M404.898,196.404c0,90.601-73.448,164.049-164.049,164.049S76.8,287.005,76.8,196.404H404.898z"/>
+   </g>
+   <circle style="fill:#FF3939;" cx="221.111" cy="55.334" r="21.953"/>
+   <path style="fill:#FF7DBE;" d="M340.228,196.404c0-65.787-53.331-119.118-119.118-119.118s-119.118,53.332-119.118,119.118H340.228z
+     "/>
+   <path d="M207.275,333.284c-0.886,0-1.786-0.113-2.682-0.351c-38.534-10.209-71.123-36.461-89.413-72.026
+     c-2.639-5.133-0.619-11.431,4.514-14.071c5.134-2.64,11.431-0.618,14.071,4.514c15.589,30.314,43.355,52.686,76.18,61.381
+     c5.578,1.477,8.903,7.198,7.424,12.777C216.129,330.189,211.9,333.284,207.275,333.284z"/>
+   <path d="M240.849,337.633h-0.137c-5.771,0-10.449-4.678-10.449-10.449c0-5.771,4.678-10.449,10.449-10.449h0.137
+     c5.771,0,10.449,4.678,10.449,10.449C251.298,332.955,246.62,337.633,240.849,337.633z"/>
+   <path d="M443.878,4.628C441.937,1.736,438.683,0,435.2,0h-58.514c-4.092,0-7.806,2.389-9.505,6.111L319.018,111.63
+     c-17.743-20.464-41.782-35.327-69.071-41.553c2.272-4.426,3.563-9.434,3.563-14.742c0-17.866-14.535-32.4-32.4-32.4
+     s-32.4,14.535-32.4,32.4c0,5.309,1.291,10.318,3.564,14.746c-54.315,12.394-95.749,59.012-100.308,115.876H76.8
+     c-5.771,0-10.449,4.678-10.449,10.449c0,92.71,72.678,168.752,164.049,174.176v76.991c-38.22,2.527-73.585,18.883-100.492,46.717
+     c-2.915,3.016-3.744,7.481-2.107,11.342s5.425,6.369,9.619,6.369h206.856c4.194,0,7.982-2.508,9.619-6.369s0.808-8.327-2.107-11.342
+     c-26.907-27.834-62.271-44.191-100.492-46.717V370.58c91.371-5.424,164.049-81.467,164.049-174.176
+     c0-5.771-4.678-10.449-10.449-10.449h-30.366l70.335-171.542C446.189,11.19,445.818,7.521,443.878,4.628z M342.563,110.373
+     l28.632,28.633l-19.25,46.949h-1.692c-1.59-19.83-7.665-38.411-17.206-54.734L342.563,110.373z M221.11,43.831
+     c6.343,0,11.502,5.16,11.502,11.502s-5.16,11.502-11.502,11.502c-6.343,0-11.502-5.16-11.502-11.502S214.767,43.831,221.11,43.831z
+      M221.11,87.735c56.395,0,102.889,43.185,108.165,98.22h-1.777H112.945C118.221,130.918,164.714,87.735,221.11,87.735z
+      M165.902,491.102c21.907-14.958,47.756-22.988,74.947-22.988s53.04,8.03,74.947,22.988H165.902z M394.098,206.853
+     c-5.387,79.844-72.063,143.151-153.249,143.151S92.988,286.697,87.6,206.853H394.098z M379.79,118.045l-27.965-27.965l9.071-19.873
+     l27.31,27.31L379.79,118.045z M396.801,76.557l-26.643-26.643l9.071-19.873l25.989,25.989L396.801,76.557z M413.812,35.069
+     l-14.171-14.171h19.982L413.812,35.069z"/>
+   </svg>
+      <h1 class="font-bold">Gourmet</h1>      
+      <p class="text-sm font-semibold">Selection</p>
+    </div>
+    <div class=" bg-white w-20 rounded-xl hover:shadow-xl">
+      <svg class="h-16 ml-1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.803 5.33333C13.803 3.49238 15.3022 2 17.1515 2C19.0008 2 20.5 3.49238 20.5 5.33333C20.5 7.17428 19.0008 8.66667 17.1515 8.66667C16.2177 8.66667 15.3738 8.28596 14.7671 7.67347L10.1317 10.8295C10.1745 11.0425 10.197 11.2625 10.197 11.4872C10.197 11.9322 10.109 12.3576 9.94959 12.7464L15.0323 16.0858C15.6092 15.6161 16.3473 15.3333 17.1515 15.3333C19.0008 15.3333 20.5 16.8257 20.5 18.6667C20.5 20.5076 19.0008 22 17.1515 22C15.3022 22 13.803 20.5076 13.803 18.6667C13.803 18.1845 13.9062 17.7255 14.0917 17.3111L9.05007 13.9987C8.46196 14.5098 7.6916 14.8205 6.84848 14.8205C4.99917 14.8205 3.5 13.3281 3.5 11.4872C3.5 9.64623 4.99917 8.15385 6.84848 8.15385C7.9119 8.15385 8.85853 8.64725 9.47145 9.41518L13.9639 6.35642C13.8594 6.03359 13.803 5.6896 13.803 5.33333Z" fill="#1C274C"/>
+        </svg>
+      <h1 class="font-bold">Refer</h1>
+      <p class="text-blue-700 text-xs font-semibold "> Discount</p>
+  </div>
+  </div>
+</div>
+
+<div class="font-extrabold text-2xl text-center my-4">WHAT'S ON YOUR MIND🍨</div>
+
+<div class="container rounded-2xl mx-auto">
+<div class="grid grid-cols-4 gap-2 p-2 text-center justify-items-center ">
+  <div class=" hover:shadow-2xl">
+    <img class="h-20 w-28 rounded-full " src="a.avif">
+    <h1 class="">Deskfriendly Dishes</h1>
+  </div>
+  <div class= "hover:shadow-2xl">
+    <img class="h-20 w-28" src="b.png">
+    <h1 class="">Summer Special</h1>
+  </div>
+  <div class= "hover:shadow-2xl">
+    <img class="h-20 w-28" src="c.png">
+    <h1class="">Briyani</h1>
+  </div>
+  <div class= "hover:shadow-2xl">
+    <img class="h-20 w-28" src="d.png">
+    <h1>special Idly</h1>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
